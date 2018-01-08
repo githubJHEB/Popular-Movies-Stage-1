@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options">
+        <item>@string/pref_Order_of_the_movies_Most_Popular</item>
+        <item>@string/pref_Order_of_the_movies_Highest_rated</item>
+    </string-array>
+    <string-array name="optionsName">
+        <item>@string/pref_Order_of_the_movies_label_Most_Popular</item>
+        <item>@string/pref_Order_of_the_movies_label_Highest_rated</item>
+    </string-array>
+</resources>

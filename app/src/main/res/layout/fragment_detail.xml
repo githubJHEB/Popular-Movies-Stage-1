@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/fragment_detail"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_16">
+
+        <LinearLayout
+            style="@style/fragment_detail"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detail_title_textview"
+                style="@style/fragment_detail_type"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textSize="@dimen/size_detail_title_textview" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="16dp">
+
+
+            <ImageView
+                android:id="@+id/detail_image_poster"
+                android:layout_width="200dp"
+                android:layout_height="250dp" />
+
+
+            <LinearLayout
+                style="@style/fragment_detail_type"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:paddingBottom="4dp"
+                    android:id="@+id/title_vote_average_textview"
+                    style="@style/fragment_detail_type"
+                    android:textSize="@dimen/size_fragment_detail_textview"
+                    android:text="Rating: "
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <LinearLayout
+                    style="@style/fragment_detail_type"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <RatingBar
+                        android:id="@+id/rating"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:textSize="18sp"
+                        android:stepSize="0.2" />
+
+                    <TextView
+                        android:paddingTop="8dp"
+                        android:id="@+id/detail_vote_average_textview"
+                        style="@style/fragment_detail_type"
+                        android:layout_gravity="left"
+                        android:textSize="@dimen/size_fragment_detail_textview"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="@color/colorPrimaryDark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/fragment_detail_type"
+                    android:gravity="center_vertical"
+                    android:paddingTop="22dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:paddingBottom="4dp"
+                        android:id="@+id/title_release_date_textview"
+                        style="@style/fragment_detail_type"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/size_fragment_detail_textview"
+                        android:text="Release date: "
+                        android:layout_gravity="left"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <TextView
+                        android:id="@+id/detail_release_date_textview"
+                        style="@style/fragment_detail_type"
+                        android:textSize="@dimen/size_fragment_detail_textview"
+                        android:layout_gravity="left"
+                        android:textColor="@color/colorPrimaryDark" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            style="@style/fragment_detail_type"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                style="@style/fragment_detail"
+                android:id="@+id/title_sypnopsis_textview"
+                android:paddingTop="16dp"
+                android:textStyle="bold"
+                android:text="SIPNOPSIS: "
+                android:textAllCaps="true"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+            <TextView
+                style="@style/fragment_detail"
+                android:id="@+id/detail_sypnopsis_textview"
+                android:textSize="@dimen/size_fragment_detail_textview"
+                android:paddingTop="16dp"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

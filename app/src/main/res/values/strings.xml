@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Movies App</string>
+    <string name="pref_Order_of_the_movies_label"  translatable="false">Order of the movies</string>
+    <string name="pref_Order_of_the_movies_key" translatable="false">Order</string>
+    <string name="pref_Order_of_the_movies_default">Most popular</string>
+
+    <string name="pref_Order_of_the_movies_label_Most_Popular" translatable="false">Most_Popular</string>
+
+    <string name="pref_Order_of_the_movies_label_Highest_rated" translatable="false">Highest_rated</string>
+
+    <string name="pref_Order_of_the_movies_Most_Popular" translatable="false">mostpopular</string>
+
+    <string name="pref_Order_of_the_movies_Highest_rated" translatable="false">highestrated</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+</resources>
