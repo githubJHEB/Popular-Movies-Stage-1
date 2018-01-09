@@ -9,6 +9,6 @@ buildTypes.each {
         it.buildConfigField 'String', 'OPEN_MOVIES_MAP_API_KEY', "\"xxxxxxxx\""
     }
 
-# License
+**License**
 
 The content of this repository is licensed under a [Creative Commons Attribution](creativecommons.org/licenses/by/3.0/us/).
